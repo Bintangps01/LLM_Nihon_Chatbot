@@ -1,13 +1,43 @@
-# LLM Chatbot
+# 📚 Multilingual LLM Chatbot (English / Japanese / Romaji)
 
-The LLM Chatbot example demonstrates how an ICP smart contract can be used to interact with a large language model (LLM) to generate text. The user can input a prompt, and the smart contract will use the LLM to generate a response.
-The response is then returned to the user, and the user can submit some follow-up prompts to continue the conversation.
+The LLM Chatbot example demonstrates how an **ICP smart contract** can be used to interact with a **Large Language Model (LLM)** to generate multilingual text.  
+The user can input a **prompt** or **chat messages**, and the smart contract will use the LLM to generate responses in **three languages**:
+
+1. **English (Original)**
+2. **Japanese (with Kanji/Kana)**
+3. **Romaji (Japanese pronunciation in Latin letters)**
+
+---
+
+## ✨ Features
+
+- ✅ Prompt-based response generation
+- ✅ Chat-based conversation
+- ✅ Outputs in **English → Japanese (Kanji/Kana) → Romaji**
+- ✅ Written in **Motoko**
+- ✅ Powered by **Llama3 8B LLM**
+
+---
+
+## 📥 Example Output
+
+```text
+Input:
+What is the capital of Japan?
+
+Output:
+The capital of Japan is Tokyo.
+
+日本の首都は東京です。
+
+Nihon no shuto wa Tōkyō desu.
+```
 
 ## Deploying from ICP Ninja
 
 When viewing this project in ICP Ninja, you can deploy it directly to the mainnet for free by clicking "Run" in the upper right corner. Open this project in ICP Ninja:
 
-[![](https://icp.ninja/assets/open.svg)](https://icp.ninja/i?g=https://github.com/Bintangps01/LLM_Nihon_Chatbot-2025-07-13-80024108291905)
+[![](https://icp.ninja/assets/open.svg)](https://icp.ninja/i?g=https://github.com/Bintangps01/LLM-Chatbot)
 
 ## Build and deploy from the command-line
 
